@@ -10,6 +10,13 @@ GIT
       execjs (>= 1.2)
       railties (>= 3.1)
 
+GIT
+  remote: https://github.com/bradphelan/jasminerice.git
+  revision: f404da53bb05d0f0f01976182cbc95e918d4cf70
+  specs:
+    jasminerice (0.1.0)
+      coffee-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +55,13 @@ GEM
       execjs
       handlebars-source
     builder (3.0.4)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
     ember-data-source (0.0.5)
       ember-source
     ember-source (0.0.3)
@@ -121,6 +135,7 @@ PLATFORMS
 
 DEPENDENCIES
   ember-rails!
+  jasminerice!
   jquery-rails
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
