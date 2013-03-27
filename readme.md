@@ -1,4 +1,4 @@
-# Waterlogged
+# Waterlogged - Work in Progress
 
 ![Water logged banner](https://raw.github.com/nixterrimus/water-logged/master/doc/banner.png)
 
