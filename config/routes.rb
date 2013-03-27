@@ -1,7 +1,7 @@
 App::Application.routes.draw do
   get "static/index"
   root :to => 'static#index'
-
+  resources :days
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
