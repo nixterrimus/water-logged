@@ -10,3 +10,14 @@ App.DayRoute = Ember.Route.extend({
   },
 });
 
+App.DayEntriesNewRoute = Ember.Route.extend({
+  events: {
+    createEntry: function(amount) {
+      console.log(amount);
+      var day = this.modelFor("day");
+      day.get('entries').createRecord( { amount: amount } );
+      this.transitionTo('day');
+    },
+  }
+});
+
