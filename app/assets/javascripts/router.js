@@ -1,5 +1,7 @@
 App.Router.map(function() {
-  this.route("day", { path: "/" });
+  this.resource("day", { path: "/" }, function() {
+    this.route('entries.new',{ path: "entries/new" });
+  });
 });
 
 App.DayRoute = Ember.Route.extend({
