@@ -9,6 +9,10 @@ App.Day = DS.Model.extend({
 
     return (sum || 0);
 
-  }.property('entries.@each.amount')
+  }.property('entries.@each.amount'),
+
+  goalMet: function() {
+    return this.get('total') >= this.get('goal');
+  }.property('goal', 'total'),
 
 });
