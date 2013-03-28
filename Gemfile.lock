@@ -54,6 +54,8 @@ GEM
       ember-source
       execjs
       handlebars-source
+    bootstrap-sass (2.2.2.0)
+      sass (~> 3.2)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -69,6 +71,10 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    flatui-rails (0.0.3)
+      bootstrap-sass (= 2.2.2)
+      railties (~> 3.1)
+      sass-rails (~> 3.2.0)
     handlebars-source (1.0.0.rc3)
     hike (1.2.1)
     i18n (0.6.1)
@@ -135,6 +141,7 @@ PLATFORMS
 
 DEPENDENCIES
   ember-rails!
+  flatui-rails
   jasminerice!
   jquery-rails
   rails (= 3.2.13)

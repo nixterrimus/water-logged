@@ -12,6 +12,7 @@ gem 'sqlite3'
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+  gem 'flatui-rails'
   gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
