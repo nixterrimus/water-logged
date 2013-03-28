@@ -4,6 +4,6 @@ class DaysController < ApplicationController
   end
 
   def show
-    render json: {day: {id: 'today', goal: 90}}
+    render json: {day: {id: 'today', goal: 60}}
   end
 end
