@@ -15,6 +15,7 @@
 //= require handlebars
 //= require ember
 //= require ember-data
+//= require localstorage_adapter
 //= require_self
 //= require app
 App = Ember.Application.create();
